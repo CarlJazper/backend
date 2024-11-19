@@ -1,0 +1,25 @@
+timestamp,source,message,suspicious,reason,severity
+2024-11-09 08:05:22,[INFO],"Server started successfully - IP: 192.168.10.1",No,,Low
+2024-11-09 08:07:10,[INFO],"User login successful - User: admin, IP: 192.168.10.2",No,,Low
+2024-11-09 08:10:45,[WARNING],"Failed login attempt - User: guest, IP: 172.16.0.5",No,,Low
+2024-11-09 08:12:30,[SUSPICIOUS],"Multiple failed login attempts - User: root, IP: 172.16.0.5",No,,Low
+2024-11-09 08:15:56,[ERROR],"Unauthorized file access attempt - File: /etc/shadow, User: hacker, IP: 10.0.0.15",Yes,Malware Detection,High
+2024-11-09 08:18:42,[SUSPICIOUS],"Suspicious file upload detected - File: malware.exe, User: admin, IP: 192.168.10.2",Yes,Malware Detection,High
+2024-11-09 08:20:30,[INFO],"User logout - User: admin, IP: 192.168.10.2",No,,Low
+2024-11-09 08:23:19,[SUSPICIOUS],"SQL Injection attempt detected in search query - User: unknown, IP: 203.0.113.55",No,,Low
+2024-11-09 08:27:33,[INFO],"New SSH session started - User: devops, IP: 192.168.10.3",No,,Low
+2024-11-09 08:30:47,[SUSPICIOUS],"High number of requests detected - Possible DDoS attack, IP: 198.51.100.7",Yes,Denial of Service (DoS) Attack,High
+2024-11-09 08:32:15,[ERROR],"Unauthorized database access attempt - User: admin, IP: 172.16.0.8",No,,Low
+2024-11-09 08:35:12,[SUSPICIOUS],"Port scanning detected from IP: 10.0.0.20",No,,Low
+2024-11-09 08:37:50,[INFO],"Scheduled backup completed - File: backup_2024_11_09.tar.gz",No,,Low
+2024-11-09 08:40:05,[SUSPICIOUS],"Brute-force password attempts on SSH - User: root, IP: 192.168.10.4",No,,Low
+2024-11-09 08:42:30,[WARNING],"High CPU usage detected - Process: java, PID: 4521",No,,Low
+2024-11-09 08:45:55,[SUSPICIOUS],"Unusual outbound traffic detected - Destination: 192.0.2.20",No,,Low
+2024-11-09 08:50:00,[ERROR],"Failed to apply security patch - Patch ID: CVE-2024-12345",No,,Low
+2024-11-09 08:52:18,[SUSPICIOUS],"Potential phishing email detected - Subject: ""Urgent: Account Verification""",Yes,Malware Detection,High
+2024-11-09 08:55:30,[INFO],"User login successful - User: alice, IP: 192.168.10.6",No,,Low
+2024-11-09 08:57:45,[SUSPICIOUS],"Attempt to escalate privileges - User: guest, IP: 10.0.0.18",No,,Low
+2024-11-09 09:00:00,[INFO],"System health check completed - Status: OK",No,,Low
+2024-11-09 09:02:38,[SUSPICIOUS],"Data exfiltration attempt detected - Large data transfer to IP: 203.0.113.100",No,,Low
+2024-11-09 09:05:12,[WARNING],"Multiple password reset attempts - User: john_doe, IP: 198.51.100.12",No,,Low
+2024-11-09 09:07:24,[SUSPICIOUS],Exploit attempt detected - Vulnerability: CVE-2024-56789,No,,Low

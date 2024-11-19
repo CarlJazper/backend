@@ -1,0 +1,15 @@
+timestamp,source,message,suspicious,reason,severity
+2024-10-26 11:05:00,INFO,"Successful login from 192.168.4.1",Yes,Credential Stuffing,High
+2024-10-26 11:07:40,WARNING,"Unauthorized access attempt from 192.168.4.9",No,,Low
+2024-10-26 11:15:32,WARNING,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:18:22,WARNING,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:19:15,WARNING,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:20:10,WARNING,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:20:45,CRITICAL,"Account locked for user at 192.168.4.9",No,,Low
+2024-10-26 23:30:00,INFO,"Successful login from 203.0.113.45",Yes,Credential Stuffing,High
+2024-10-26 23:35:00,WARNING,"accessed /admin from IP 192.168.4.15",Yes,Suspicious Data Access,High
+2024-10-26 23:36:10,INFO,"Successful login from 192.168.4.15",Yes,Credential Stuffing,High
+2024-10-26 23:37:00,WARNING,"SQL injection attempt detected: ' OR '1'='1",Yes,SQL Injection Attempt,Medium
+2024-10-26 23:38:22,WARNING,"Too many requests from 192.168.4.20",No,,Low
+2024-10-26 23:40:35,WARNING,"Privilege escalation detected from user on IP 192.168.4.25",No,,Low
+2024-10-26 23:42:15,INFO,"downloaded confidential data from 192.168.4.27",Yes,Suspicious Data Access,High

@@ -1,0 +1,10 @@
+timestamp,source,message,suspicious,reason,severity
+2024-10-26 11:05:00,-,"Successful login from 192.168.4.1",Yes,Credential Stuffing,High
+2024-10-26 11:07:40,-,"Unauthorized access attempt from 192.168.4.9",No,,Low
+2024-10-26 11:15:32,-,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:18:22,-,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:18:56,-,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:19:12,-,"Failed login attempt from 192.168.4.9",Yes,Credential Stuffing,High
+2024-10-26 11:20:45,-,"Brute force attack detected from 192.168.4.9",Yes,Brute Force Attack,High
+2024-10-26 11:25:35,-,"Account locked for user at 192.168.4.9",No,,Low
+2024-10-26 11:30:00,-,Successful login from 192.168.4.11,Yes,Credential Stuffing,High

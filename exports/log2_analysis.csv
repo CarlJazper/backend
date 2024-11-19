@@ -1,0 +1,7 @@
+timestamp,source,message,suspicious,reason,severity
+2024-10-24 09:05:22,-,"Successful login from 192.168.2.1",Yes,Credential Stuffing,High
+2024-10-24 09:10:50,-,"Brute force attack detected from 192.168.2.3",Yes,Brute Force Attack,High
+2024-10-24 09:12:31,-,"Failed login attempt from 192.168.2.3",Yes,Credential Stuffing,High
+2024-10-24 09:13:03,-,"Failed login attempt from 192.168.2.3",Yes,Credential Stuffing,High
+2024-10-24 09:13:45,-,"Account locked for user at 192.168.2.3",No,,Low
+2024-10-24 09:20:15,-,Unauthorized access attempt from 192.168.2.5,No,,Low

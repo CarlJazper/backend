@@ -1,0 +1,17 @@
+timestamp,source,message,suspicious,reason,severity
+2024-11-09 10:12:34,[INFO],"User login successful - User: john_doe",No,,Low
+2024-11-09 10:14:22,[WARNING],"Multiple failed login attempts detected for user: admin",No,,Low
+2024-11-09 10:15:10,[SUSPICIOUS],"Suspicious activity detected: Unauthorized file access attempt - File: /etc/passwd",No,,Low
+2024-11-09 10:18:45,[ERROR],"SQL Injection attempt detected in login form - User IP: 192.168.1.5",Yes,Suspicious File Manipulation,High
+2024-11-09 10:20:33,[SUSPICIOUS],"Potential malware detected in uploaded file - Filename: invoice.exe",Yes,Malware Detection,High
+2024-11-09 10:22:14,[INFO],"User logout - User: jane_doe",No,,Low
+2024-11-09 10:25:02,[SUSPICIOUS],"Multiple failed password attempts for sensitive endpoint - User: admin",No,,Low
+2024-11-09 10:28:19,[ERROR],"Data leak detected: Sensitive information found in logs",Yes,Suspicious File Manipulation,High
+2024-11-09 10:30:05,[SUSPICIOUS],"Suspicious network activity from IP: 10.0.0.3 - Possible DDoS attack",Yes,Denial of Service (DoS) Attack,High
+2024-11-09 10:31:56,[INFO],"System backup completed successfully",No,,Low
+2024-11-09 10:35:44,[SUSPICIOUS],"Unusual user behavior detected - User: hacker01, accessing restricted areas",No,,Low
+2024-11-09 10:38:22,[WARNING],"High CPU usage detected on server",No,,Low
+2024-11-09 10:40:11,[SUSPICIOUS],"Brute-force attack detected on SSH - Source IP: 203.0.113.45",No,,Low
+2024-11-09 10:42:54,[INFO],"Security patch applied - Version 1.2.3",No,,Low
+2024-11-09 10:45:29,[SUSPICIOUS],"Possible phishing link detected in email - Subject: ""Update Your Account Info""",Yes,Malware Detection,High
+2024-11-09 10:47:17,[ERROR],Unauthorized database access attempt - User: unknown,No,,Low

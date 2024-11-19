@@ -1,0 +1,9 @@
+timestamp,source,message,suspicious,reason,severity
+2024-10-27 07:25:10,-,"Failed login attempt from 192.168.5.14",Yes,Credential Stuffing,High
+2024-10-27 07:26:15,-,"Failed login attempt from 192.168.5.14",Yes,Credential Stuffing,High
+2024-10-27 07:27:22,-,"Failed login attempt from 192.168.5.14",Yes,Credential Stuffing,High
+2024-10-27 07:30:10,-,"Failed login attempt from 192.168.5.14",Yes,Credential Stuffing,High
+2024-10-27 07:31:12,-,"Failed login attempt from 192.168.5.14",Yes,Credential Stuffing,High
+2024-10-27 07:32:14,-,"Failed login attempt from 192.168.5.14",Yes,Credential Stuffing,High
+2024-10-27 07:33:16,-,"Account locked for user at 192.168.5.14",No,,Low
+2024-10-27 07:40:00,-,Unauthorized access attempt from 192.168.5.20,No,,Low
